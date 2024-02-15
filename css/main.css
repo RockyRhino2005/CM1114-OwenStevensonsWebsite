@@ -1,11 +1,18 @@
+/*  
+main text colour and selction colour = (#000000)
+secondary text and reading background colour = (#FFFFFF)
+background color = (#800020)
+accent and interactive feature colour: (#702963)
+main colour = (#D2042D) */
+
 body {
     background-color: (#800020);
 }
 
 header {
     background-color: ((#FFFFFF));
-    border-top-left-radius: 10;
-    border-top-right-radius: 10;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -14,15 +21,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    font-size: 40;
+    font-size: 40px;
 }
 
 h3 {
-    font-size: 25;
+    font-size: 25px;
 }
 
 p {
-    font-size: 12;
+    font-size: 12px;
 }
 
 main {
@@ -30,11 +37,11 @@ main {
 }
 
 aside {
-    background-color: (#FFFFFF)
-    border-radius: 10;
+    background-color: (#FFFFFF);
+    border-radius: 10px;
 }
 
 footer {
     background-color: (#D2042D);
-    border-radius: 10;
+    border-radius: 10px;
 }
