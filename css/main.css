@@ -4,8 +4,8 @@ body {
 
 header {
     background-color: ((#FFFFFF));
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 10;
+    border-top-right-radius: 10;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -14,15 +14,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 40;
 }
 
 h3 {
-    font-size: 25px
+    font-size: 25;
 }
 
 p {
-    font-size: 12px;
+    font-size: 12;
 }
 
 main {
@@ -31,10 +31,10 @@ main {
 
 aside {
     background-color: (#FFFFFF)
-    border-radius: 10px;
+    border-radius: 10;
 }
 
 footer {
     background-color: (#D2042D);
-    border-radius: 10px;
+    border-radius: 10;
 }
