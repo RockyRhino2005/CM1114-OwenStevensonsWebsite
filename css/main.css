@@ -1,0 +1,40 @@
+body {
+    background-color: (#800020);
+}
+
+header {
+    background-color: ((#FFFFFF));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Times New Roman', Times, serif;
+    color: (#000000);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px
+}
+
+p {
+    font-size: 12px;
+}
+
+main {
+    background-color: (#FFFFFF);
+}
+
+aside {
+    background-color: (#FFFFFF)
+    border-radius: 10px;
+}
+
+footer {
+    background-color: (#D2042D);
+    border-radius: 10px;
+}
