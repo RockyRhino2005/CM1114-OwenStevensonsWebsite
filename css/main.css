@@ -45,3 +45,26 @@ footer {
     background-color: #D2042D;
     border-radius: 10px;
 }
+
+nav li {
+    border: 2px;
+    border-style: solid; 
+    color: #702963;
+    background-color: #D2042D;
+    list-style-type: none;
+
+}
+
+nav li a {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #000000;
+}
+
+.active {
+    background-color: #702963;
+}
