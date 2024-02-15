@@ -1,10 +1,3 @@
-/*  
-main text colour and selction colour = (#000000)
-secondary text and reading background colour = (#FFFFFF)
-background color = (#800020)
-accent and interactive feature colour: (#702963)
-main colour = (#D2042D) */
-
 body {
     background-color: (#800020);
 }
@@ -16,7 +9,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', ;
     color: (#000000);
 }
 
