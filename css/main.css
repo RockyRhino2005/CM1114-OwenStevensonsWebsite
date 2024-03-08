@@ -1,0 +1,148 @@
+/*  
+main text colour and selction colour = (#000000)
+secondary text and reading background colour = (#FFFFFF)
+background color = (#800020)
+accent and interactive feature colour: (#702963)
+main colour = (#D2042D) */
+
+body {
+    background-color: #800020;
+    padding: 10px;
+}
+
+header {
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 12px;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #D2042D;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul {
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+nav li {
+    border: 2px;
+    border-style: solid; 
+    color: #702963;
+    background-color: #D2042D;
+    list-style-type: none;
+    float: left;
+    width: 13%;
+    padding: 16px;
+
+}
+
+nav li a {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav li:hover {
+    background-color: #000000;
+}
+
+.active {
+    background-color: #702963;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 2px;
+    border-style: solid;
+    border-color: #FA8072;
+}
+
+table tr:nth-child(even) {
+    background-color: #FF5733;
+}
+
+table tr:hover {
+    background-color: #800020;
+}
+
+table th {
+    background-color: #D2042D;
+    color: white;
+}
+
+#logo {
+
+    margin-right: 10px;
+    float: left;
+
+}
+
+#title {
+
+display: inline;
+
+}
+
+#contact{
+    height: 600px;
+}
+
+#left_col {
+
+    float: left;
+    padding: 5px;
+    display: inline;
+
+}
+
+#right_col {
+
+    float: right;
+    padding: 5px;
+    display: inline;
+
+}
