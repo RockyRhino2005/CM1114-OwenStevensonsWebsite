@@ -12,17 +12,9 @@
 
         <style>
 
-            .gallery-img:hover {
-                border-color: rgb(198, 56, 43);
-                border-style: solid;
-            }
-
             .gallery-img{
                 width: 100%;
                 margin: 5px;
-                border: 1px;
-                border-color: #ccc;
-                border-style: solid;
                 padding: 10px;
             }
 
@@ -41,13 +33,6 @@
             }
 
         </style>
-
-
-        <script>
-
-
-
-        </script>
 
     </head>
 
@@ -79,22 +64,22 @@
 
             <h3> Image Gallery </h3>
 
-
+            <!-- organises the images into rows of 3 and keeps them organised -->
             <div id="img-gallery" class="container">
 
 
             <div class="row">
 
                  <div class="col-sm">
-                    <img src="Images/spidercat.PNG" alt="Spider Cat" class="gallery-img" height="250px"/>
+                    <img src="Images/spidercat.PNG" alt="Spider Cat" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
                 
                 <div class="col-sm">
-                    <img src="Images/hawkeye.jpeg" alt="Hawkeye" class="gallery-img" height="250px"/>
+                    <img src="Images/hawkeye.jpeg" alt="Hawkeye" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
                 <div class="col-sm">
-                    <img src="Images/thor.PNG" alt="Thor" class="gallery-img" height="250px"/>
+                    <img src="Images/thor.PNG" alt="Thor" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
             </div>
@@ -103,15 +88,15 @@
             <div class="row">
 
                 <div class="col-sm">
-                    <img src="Images/hulk.jpg" alt="Hulk" class="gallery-img" height="250px"/>
+                    <img src="Images/hulk.jpg" alt="Hulk" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
                 <div class="col-sm">
-                    <img src="Images/ironman.PNG" alt="Iron Man" class="gallery-img" height="250px"/>
+                    <img src="Images/ironman.PNG" alt="Iron Man" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
                 <div class="col-sm">
-                    <img src="Images/cap.PNG" alt="Captain America" class="gallery-img" height="250px"/>
+                    <img src="Images/cap.PNG" alt="Captain America" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
             </div>
@@ -120,15 +105,15 @@
             <div class="row">
 
                 <div class="col-sm">
-                    <img src="Images/gotg.webp" alt="Guardians of the Galaxy" class="gallery-img" height="250px"/>
+                    <img src="Images/gotg.webp" alt="Guardians of the Galaxy" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
                 
                 <div class="col-sm">
-                    <img src="Images/moonknight.webp" alt="MoonKnight" class="gallery-img" height="250px"/>
+                    <img src="Images/moonknight.webp" alt="MoonKnight" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
                 <div class="col-sm">
-                    <img src="Images/deadpool.PNG" alt="Deadpool" class="gallery-img" height="250px"/>
+                    <img src="Images/deadpool.PNG" alt="Deadpool" class="gallery-img" onload="start(this)" onmouseover="highlight(this)" onmouseout="delight(this)" height="250px"/>
                 </div>
 
             </div>
@@ -137,6 +122,26 @@
         
 
         </main>
+
+        <script>
+            // when an image is highlighted its unblurred and has a red border
+            function highlight(x) {
+                x.style="filter: revert";
+                x.style="border: solid rgb(198, 56, 43) 5px";
+            }
+            // when an image is unhighlighted its blurred and has no border
+            function delight(x) {
+                x.style="border: none";
+                x.style="filter: blur(4px)";
+                
+            }
+            // blurs the images on page loading
+            function start(x) {
+                x.style="filter: blur(4px)";
+                
+            }
+
+        </script>
 
         <aside>
 
