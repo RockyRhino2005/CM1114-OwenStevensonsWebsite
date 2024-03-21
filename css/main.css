@@ -35,6 +35,11 @@ p {
     font-size: 12px;
 }
 
+/*Changed for accessability of no red colourblindness  */
+footer p {
+    color: #FFFFFF;
+}
+
 main {
     background-color: #FFFFFF;
     padding: 10px;
