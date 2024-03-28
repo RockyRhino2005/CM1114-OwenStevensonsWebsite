@@ -5,22 +5,15 @@ background color = (#800020)
 accent and interactive feature colour: (#702963)
 main colour = (#D2042D) */
 
-body {
-    background-color: #800020;
-    padding: 10px;
-}
-
-header {
-    background-color: #FFFFFF;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
+/* Adjusting Text */
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
+}
+
+#carouselExampleCaptions h5{
+    color: #FFFFFF;
 }
 
 h1 {
@@ -35,9 +28,23 @@ p {
     font-size: 12px;
 }
 
-/*Changed for accessability of no red colourblindness  */
 footer p {
     color: #FFFFFF;
+}
+
+/* Organising Pages (margins,borders,background colours, etc */
+
+body {
+    background-color: #800020;
+    padding: 10px;
+}
+
+header {
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
 main {
@@ -60,6 +67,8 @@ footer {
     margin: 10px;
 }
 
+/* Nav Bar */
+
 nav ul {
 
     margin: 0px;
@@ -67,6 +76,8 @@ nav ul {
     overflow: hidden;
 
 }
+
+/* makes nav bar display horizontal and without bullet points */
 
 nav li {
     border: 2px;
@@ -87,6 +98,8 @@ nav li a {
     font-size: 12px;
 }
 
+/* when nav bar item is hovered over it changes colour */
+
 nav li:hover {
     background-color: #000000;
 }
@@ -94,6 +107,8 @@ nav li:hover {
 .active {
     background-color: #702963;
 }
+
+/* Events Table */
 
 table {
     font-family: 'Times New Roman', Times, serif;
@@ -117,7 +132,17 @@ table tr:hover {
 table th {
     background-color: #D2042D;
     color: white;
+    text-align: center;
 }
+
+table td {
+    text-align: center;
+    width: 125px;
+    font-size: 10pt;
+    padding: 5px;
+}
+
+/* Logo */
 
 #logo {
 
@@ -136,6 +161,8 @@ display: inline;
     height: 600px;
 }
 
+/* Two Column Layout */
+
 #left_col {
 
     float: left;
@@ -150,4 +177,16 @@ display: inline;
     padding: 5px;
     display: inline;
 
+}
+
+/* Aside article */
+
+.headline {
+    display: inline;
+    float: left;
+    padding-right: 10px;
+}
+
+.article-text {
+    padding: 15px;
 }
