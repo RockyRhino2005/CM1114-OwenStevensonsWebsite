@@ -24,6 +24,14 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
 p {
     font-size: 12px;
 }
@@ -189,4 +197,17 @@ display: inline;
 
 .article-text {
     padding: 15px;
+}
+
+/* Movies images */
+.storyright {
+    display: inline;
+    float: right;
+    padding-left: 10px;
+}
+
+.storyleft {
+    display: inline;
+    float: left;
+    padding-right: 10px;
 }
